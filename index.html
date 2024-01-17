@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My YouTube Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .video {
+            width: 300px;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My YouTube Clone</h1>
+    </header>
+
+    <main>
+        <div class="video">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+            <h2>Video Title 1</h2>
+            <p>Video description goes here.</p>
+        </div>
+
+        <div class="video">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+            <h2>Video Title 2</h2>
+            <p>Video description goes here.</p>
+        </div>
+
+        <!-- Add more video entries as needed -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My YouTube Clone</p>
+    </footer>
+</body>
+</html>
